@@ -1,18 +1,35 @@
-body {
-    margin: 0;    
-    background-color: #2299ff;
-}
+html {
+    min-height: 100%;
+    background-image: url(https://cdn.pixabay.com/photo/2019/11/07/14/09/sky-4608972_960_720.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+ }
 
 .navbar {
-        background-color: black;
-        padding: 15px
-        
-
-}
+    background-color: rgb(219, 238, 245);
+    text-align: right;
+    position: fixed;
+    width: 100%;
+    height: 40px;
+    top: 0;
+    left: 0;
+    }
 
 .nav-link{
-    background-color: blue;
+    background-color: rgb(135, 207, 231);
     color: black;
-    padding: .5em;
+    vertical-align: 10px;
+    text-align: right;
+    padding: 5px;
     border-radius: 4px
-}
+    }
+
+.signup{
+    background-color:rgb(203, 228, 236);
+    border: 2px solid grey;
+    margin: 150px auto;
+    width: 250px;
+    padding: 7px;
+    content: center;
+    }
