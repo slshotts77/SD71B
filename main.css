@@ -31,5 +31,7 @@ html {
     margin: 150px auto;
     width: 250px;
     padding: 7px;
-    content: center;
+    text-align: center;
     }
+
+label{text-align: left;}
